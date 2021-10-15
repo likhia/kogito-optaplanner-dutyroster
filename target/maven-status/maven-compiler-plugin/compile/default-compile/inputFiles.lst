@@ -1,0 +1,9 @@
+/Users/lilim/kogito/kogito-optaplanner-dutyroster/src/main/java/org/roster/domain/DutyRosterSolution.java
+/Users/lilim/kogito/kogito-optaplanner-dutyroster/src/main/java/org/roster/solver/DutyRosterConstraintProvider.java
+/Users/lilim/kogito/kogito-optaplanner-dutyroster/src/main/java/org/roster/domain/ShiftAssignment.java
+/Users/lilim/kogito/kogito-optaplanner-dutyroster/src/main/java/org/roster/domain/TimeSlot.java
+/Users/lilim/kogito/kogito-optaplanner-dutyroster/src/main/java/org/roster/domain/Shift.java
+/Users/lilim/kogito/kogito-optaplanner-dutyroster/src/main/java/org/roster/domain/DayOffRequest.java
+/Users/lilim/kogito/kogito-optaplanner-dutyroster/src/main/java/org/roster/domain/Duty.java
+/Users/lilim/kogito/kogito-optaplanner-dutyroster/src/main/java/org/roster/domain/Employee.java
+/Users/lilim/kogito/kogito-optaplanner-dutyroster/src/main/java/org/roster/service/DutyRosterController.java

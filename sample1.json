@@ -1,0 +1,188 @@
+{
+	"employeeList" : [
+		{
+			"id" : "1",
+			"name" : "Josh",
+			"duty" : { "name" : "Cleaning" }
+		},
+		{
+                        "id" : "2",
+                        "name" : "Angela",
+                        "duty" : { "name" : "Cleaning" }
+                },
+		{
+                        "id" : "3",
+                        "name" : "Mary",
+                        "duty" : { "name" : "Cleaning" }
+                },
+		{
+                        "id" : "4",
+                        "name" : "Joe",
+                        "duty" : { "name" : "Drying" }
+                },
+		{
+                        "id" : "5",
+                        "name" : "Chloe",
+                        "duty" : { "name" : "Delivery" }
+                }
+	],
+	"shiftList" : [
+		{
+			"timeslot" : {
+				"startTime" : "2020-08-01T08:00:00",
+				"endTime" : "2020-08-01T12:00:00"
+			},
+			"requiredDuty" : { "name" : "Cleaning" } 
+		},
+		{
+                        "timeslot" : {
+                                "startTime" : "2020-08-01T12:01:00",
+                                "endTime" : "2020-08-01T18:00:00"
+                        },
+                        "requiredDuty" : { "name" : "Cleaning" } 
+                },
+		{
+                        "timeslot" : {
+                                "startTime" : "2020-08-02T08:00:00",
+                                "endTime" : "2020-08-02T12:00:00"
+                        },
+                        "requiredDuty" : { "name" : "Cleaning" } 
+                },
+                {
+                        "timeslot" : {
+                                "startTime" : "2020-08-02T12:01:00",
+                                "endTime" : "2020-08-02T18:00:00"
+                        },
+                        "requiredDuty" : { "name" : "Cleaning" }
+                },
+		{
+                        "timeslot" : {
+                                "startTime" : "2020-08-03T08:00:00",
+                                "endTime" : "2020-08-03T12:00:00"
+                        },
+                        "requiredDuty" : { "name" : "Drying" }
+                },
+                {
+                        "timeslot" : {
+                                "startTime" : "2020-08-03T12:01:00",
+                                "endTime" : "2020-08-03T18:00:00"
+                        },
+                        "requiredDuty" : { "name" : "Delivery" }
+                }
+
+	],
+	"dutyList" : [
+		{
+			"name" : "Cleaning"
+		},
+		{
+                        "name" : "Drying"
+                },
+ 		{
+                        "name" : "Delivery"
+                }
+	], 
+	"timeslotList" : [
+		{
+			"startTime" : "2020-08-01T08:00:00",
+                        "endTime" : "2020-08-01T12:00:00"
+		},
+		{
+			"startTime" : "2020-08-01T12:01:00",
+                	"endTime" : "2020-08-01T18:00:00"	
+		},
+		{
+                        "startTime" : "2020-08-02T08:00:00",
+                        "endTime" : "2020-08-02T12:00:00"
+                },
+                {
+                        "startTime" : "2020-08-02T12:01:00",
+                        "endTime" : "2020-08-02T18:00:00"         
+                },
+		{
+                        "startTime" : "2020-08-03T08:00:00",
+                        "endTime" : "2020-08-03T12:00:00"
+                },
+                {
+                        "startTime" : "2020-08-03T12:01:00",
+                        "endTime" : "2020-08-03T18:00:00"         
+                }
+	],
+	"dayOffRequestList" : [
+		{
+			"offShift" : {
+				"startTime" : "2020-08-02T08:00:00",
+                                "endTime" : "2020-08-02T12:00:00"
+			}, 
+			"employee" : {
+				"id" : "1",
+                        	"name" : "Josh",
+                        	"duty" : { "name" : "Cleaning" }
+			}
+		}
+	],
+	"shiftAssignmentList" : [
+		{
+                        "id" : 1,
+			"shift" : {
+				"timeslot" : {
+                                        "startTime" : "2020-08-01T08:00:00",
+                                        "endTime" : "2020-08-01T12:00:00"
+                                },
+                                "requiredDuty" : { "name" : "Cleaning" } 
+			}
+		},
+		{
+                        "id" : 2,
+                        "shift" : {
+				"timeslot" : {
+                                        "startTime" : "2020-08-01T12:01:00",
+                                        "endTime" : "2020-08-01T18:00:00"
+                                },
+                                "requiredDuty" : { "name" : "Cleaning" } 
+                        }
+                },
+		{
+                        "id" : 3,
+                        "shift" : {
+                                "timeslot" : {
+                                        "startTime" : "2020-08-02T08:00:00",
+                                        "endTime" : "2020-08-02T12:00:00"
+                                },
+                                "requiredDuty" : { "name" : "Cleaning" } 
+                        }
+                },
+                {
+                        "id" : 4,
+                        "shift" : {
+                                "timeslot" : {
+                                        "startTime" : "2020-08-02T12:01:00",
+                                        "endTime" : "2020-08-02T18:00:00"
+                                },
+                                "requiredDuty" : { "name" : "Cleaning" }
+                        }
+                },
+                {
+                        "id" : 5,
+                        "shift" : {
+                                "timeslot" : {
+                                        "startTime" : "2020-08-03T08:00:00",
+                                        "endTime" : "2020-08-03T12:00:00"
+                                },
+                                "requiredDuty" : { "name" : "Drying" }
+                        }
+                },
+                {
+                        "id" : 6,
+                        "shift" : {
+                                "timeslot" : {
+                                        "startTime" : "2020-08-03T12:01:00",
+                                        "endTime" : "2020-08-03T18:00:00"
+                                },
+                                "requiredDuty" : { "name" : "Delivery" }
+                        }
+                }
+		
+	]
+}
+
